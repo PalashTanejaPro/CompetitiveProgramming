@@ -29,6 +29,13 @@ void union(int a,int b){
 		size[root_b]+=size[root_a];
 	}
 }
+ bool find( int A, int B)                           
+{
+if(arr[ A ] == arr[ B ])
+return true;
+else
+return false;   
+}
 int main(int argc, char const *argv[])
 {
 	// implementation of disjoint set union
