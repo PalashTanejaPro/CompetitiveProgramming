@@ -7,7 +7,6 @@ typedef pair<int,int> pii;
 typedef vector< pii > vpi;
 #define s(a) sort((a).begin(),(a).end())
 #define FOR(i,a,n) for(int i=a;i<n;++i)
-#define forall(i,a,n) for(int i=a;i<=n;++i)
 #define pb push_back
 #define fi first
 #define se second
